@@ -15,7 +15,7 @@ run_in_bg() {
 echo -e "\033[0;96mInstalling Nino...\033[0m"
 
 eval "cd ~/ &&
-rm -rf Hikka &&
+rm -rf Nefor &&
 git clone https://github.com/gangstersso/Nefor &&
 cd Nefor &&
 pip install -U pip &&
