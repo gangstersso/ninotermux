@@ -21,7 +21,7 @@ cd Nefor &&
 pip install -U pip &&
 pip install -r requirements.txt &&
 echo '' > ~/../usr/etc/motd &&
-echo 'clear && . <(wget -qO- https://raw.githubusercontent.com/gangstersso/ninotermux/main/banner.sh) && cd ~/Hikka && python3 -m hikka --port 1242' > ~/.bash_profile"
+echo 'clear && . <(wget -qO- https://raw.githubusercontent.com/gangstersso/ninotermux/main/banner.sh) && cd ~/Nefor && python3 -m hikka --port 1242' > ~/.bash_profile"
 
 echo -e "\033[0;96mStarting Nino...\033[0m"
 
